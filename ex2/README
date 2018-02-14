@@ -1,0 +1,33 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex2:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+"convert_spoon_to_cup.py" program that convert spoons number to cups
+
+"calculate_mathematical_expression.py"  program that contain 2 functions that gets 2 numbers and mathematical operation (+,-,/,*) and to the math solution. the second function gets the mathematical question by one string and return
+the answer.
+
+"largest_and_smallest.py" program that gets three numbers and return the largest and after that the smallest number between the 3 numbers
+
+"quadratic_equation.py" program that contain 2 functions. the first function gets 3 numbers and return the quadratic equation. the second function gets 3 numbers from the user and return the solutions.
+
+"shapes.py" program that contain 4 functions that calculate together the area the user want: circle, rectangle or trapezoid. first function gets the user answer and uses the other function to return the area the user ask for.
+
+"bmi.py"  program that function that calculate BMI (weight/height**2) if the bmi between 18.5 and 24.9 (included) the function return true, other the function return false.
+
+
+
+
+======================
+=  Special Comments  =
+======================
+Itay De Rose teach me the "split" method.

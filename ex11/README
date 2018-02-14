@@ -1,0 +1,37 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex11:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+in this file we create and returns values of mathematical function and
+operations. this file contain base function like subtraction, addition, compos
+and more basic operations between two functions.
+
+also, in this file there is also function that draw the function by using
+plot_func (from Graph).
+
+in addition, in this file there is more complicated function:
+1. solve - return the solutions of function
+2. inverse - this function receive function and return the inverse function of
+this function.
+3. integral - this function receive function and return the integral of the
+function.
+4. definite_integral -  this function receive function and return the sum of
+the integral (by using riemann method formula)
+5. ex11_func_list - returns list with 8 functions that we create with function
+we create before.
+
+
+======================
+=  Special Comments  =
+======================
+i discussed with arik stein about "styling"v the composes function in the
+last function (ex11_func_list)

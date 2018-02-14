@@ -1,0 +1,58 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex9:   =
+=============================
+This program contain 4 classes - Ship, Asteroid, Torpedo and GameRunner,
+that together define every object in the game and run the "asteroid game".
+
+about the game:
+the user start the game with ship with three lives. at starting there is
+asteroids moving in the screen(the default number is 3). user can accelerate
+the ship (by press "up") and move the user have (by change the heading of the
+ship by press "right" or "left").
+torpedoes that he can shot (by press the space bar) the asteroids. if the size
+of the asteroid bigger then one the asteroid will split to two new (smaller) 
+asteroid.
+the game over when user win or lose or he ask to exit (by press "exit" or "Q").
+the user win if he destroy all the asteroids in the game.
+the user loss if all his three lives ended.
+
+==================
+=  Description:  =
+==================
+My consideration in this code:
+1. the movement of the objects in the game happens in GameRunner. in my opinion
+this is a good decision that save "lines of code" and more simple to
+understand for other who will see this code (they not need to go to every class
+to understand the movement..).
+another way - to define movement of each object in his class. the advantage in
+that is that the code more "modular" - if someone want"s to change movement
+of specific object it"s very simple (in my code you have to write a new code)
+
+2. GameRunner include function that change thing in the objects - there is in
+class GameRunner function that change value and thing in object - like new
+speed if user want"s to accelerate the ship. in my opinion this is more simple
+ to understand, and more connect to the game itself, and not really define
+ the object and because that it"s need to be in that class.
+ another way - to create a function in the object (like def accelerate that
+ change the speed of the ship in class Ship) and then call it GameRunner. the
+ advantage in that is that we "save" the object and not "set" things in another
+ class (more private and more secure).
+
+3. Simplify the game by create many function - I tried to write many function
+in GameRunner class that each of them do one thing - like split the asteroids,
+change objects lives, check if the user exit and more. in my opinion this make
+the code much more easy to read and "look nicer".
+another way - create function but less. write the code to check if user want"s
+to exit in "def game_loop". in that way maybe "game_loop" really long, but
+you can see and understand step by step the loop of the game, and you not need
+to check what every function do (and then go back to the game loop and so on..)
+
+======================
+=  Special Comments  =
+======================
+I discussed with Avhichai Vogel

@@ -1,0 +1,35 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex4:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+'update_word_pattern' - this function check if the letter is in the word,
+and update the pattern of the letter is in the word.
+
+'run_single_game' - this function use some of the function from the
+hangman_helper.py and start the game.
+
+'filter_words_list' - if the user ask for hint, this function return to him
+a letter. this function filter the word list by same length to the pattern
+and filter the list if the letter from the pattern are not or not in the
+exactly place in the words.
+
+'choose_letter' - at the end the function return the most occurrence
+word in the list.
+
+======================
+=  Special Comments  =
+======================
+answer:
+First we need to change the 'word list' to word in hebrew, fro get a random
+hebrew word. second we need to change some small thing in the function.
+like in the function 'choose_letter' - we need to change the alphabet list
+to 22 letters(to check for all the letters in hebrew).

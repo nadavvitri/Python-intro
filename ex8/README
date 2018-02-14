@@ -1,0 +1,48 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex8:   =
+=============================
+This program contain 2 files:
+
+1. Ship.py - in this file we have class that define every single ship.
+the direction of the ship comes from the class Direction (also in this file).
+"__init__" - the function that "create" the ships and contain the position,
+length, direction of the ship, and also the board size.
+in class Ship there are function the move ("move") the ship, and also functions
+that report if the ship has hitted ("hit") or even terminate ("terminated").
+the function "coordinates" return the coordinates of the ship.
+"__contian__" check if the ship are in some coordinate.
+"damage_cells" return the damaged coordinate of the ship.
+"direction" - return the direction of the ship from the class Direction.
+"cell_status" - return the status of coordinate of the ship.
+"__repr__" - return description of the ship.
+
+2. Game.py - in this file there is the class Game, that run the battelship
+game.
+"__init__" - the "start" of the game. in this function there the board size,
+ships (from ship class).
+"play_one_round" - the function get a coordinate for bomb from the user, and
+put the bomb on the board. the function move all the ship (the not hitted).
+the function print the board, and remove the terminated ships from him and
+show the bombs on the board.
+"play" - the main function that manage the game.
+first print to the user the board and play the game until there is no ships on
+the board.
+"__repr__" - return the board size,the bombs on him and the ships.
+
+
+
+==================
+=  Description:  =
+==================
+
+
+
+
+======================
+=  Special Comments  =
+======================

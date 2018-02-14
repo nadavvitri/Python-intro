@@ -1,0 +1,32 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex6:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+"compare_pixel"  - receive two pixel (tuple of 3 numbers) and return the
+distance between them.
+"compare" - receive two images and return the distance between them.
+"get_piece" - taking a piece from the image
+"set_piece" - replace specific place from the image with another image
+"average" - receive image and return the average of the pixels.
+"preprocess_tiles" - receive tiles and return the average (of the pixels) for
+every tile.
+"get_best_tiles" - return the similar tiles (from the list) to the image.
+"choose_tile" - return the best (similar to the image) tile from tiles list.
+"make_mosaic" - return the photomasaic image by replace the pieces of the image
+with 'best' tiles.
+
+*also there is a coder that run the program and save the result
+ of the photomasaic image.
+
+======================
+=  Special Comments  =
+======================

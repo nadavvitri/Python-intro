@@ -1,0 +1,51 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex3:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+In ex3.py there 8 function:
+1) create_list gets strings from the user and return all the string
+ in one list.
+the function use while loop and append the strings to another list
+and stop when the user enter empty string.
+2) concat_list receive list of strings and return them as a one string
+by using for loop.
+3) average recieve numbers and return the sum of them by using for loop
+that add the numbers to total list.
+4) cyclic receive two lists and check if the list equal in cyclic
+formation to the second.
+5) histogram receive list of numbers and another number and check the
+histogram list of the numbers.
+6) prime_factors get one number and return all the prime numbers
+ until this number.
+7) cartesian receive two list of any type and return the cartesian
+ product of them.
+8) pairs receive list of numbers and another number and return all
+the pairs that the sum of them
+equal the the another number.
+
+
+======================
+=  Answers  =
+======================
+1. True because this is cyclic formation, that equal the the second list
+2. [0,1,1] because it is do histogram list to the lengthe of the 3
+3. [0] : because there is not thing like range(2,0),
+ and the for loop dont start.
+the number (0) continue to the "if" condition and enter to the
+condition(0 is not 1!) and then zero append to
+the list and the function return this list = [0] !
+4.[[0, 2], [0, 2], [1, 1], [1, 1]] : because my function
+based in condition that there is no duble numbers in the num_list. my base on
+function is to duplicate the num_list and after that remove number from there.
+before the function remove the number the function append number,so if there
+is double nuber it will append
+it twice.

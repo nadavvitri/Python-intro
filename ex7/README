@@ -1,0 +1,37 @@
+nadav.vitri
+203819909
+Nadav Vitri
+
+
+=============================
+=  README for ex7:   =
+=============================
+"print_to_n" - print all the numbers from 1 to 'n'.
+
+"print_reversed" - print all the numbers from 'n' to 1.
+
+"is_prime" - check if the nubmer is prime or not (True or False).
+
+"divisors"  - return list of all the divisors of 'n'.
+
+"exp_n_x" - sum the exponential function series.
+"play_hanoi" - solve the hanoi game (from "hanoi_game.py")
+
+"print_binary_sequences" - print all the possible binary
+sequences in length 'n'.
+
+"print_sequences" - receive chart list and return all the possible combination
+in length 'n'. the same chart can appear more then one time!
+
+"print_no_repetition_sequences" - receive chart list and return all the
+possible combination in length 'n'. the same chart can appear only one time!
+
+"no_repetition_sequences_list" - receive chart list and return list of all the
+possible combination in length 'n'. the same chart can appear only one time!
+==================
+=  Description:  =
+==================
+there is many functions that 'help' to these function.
+======================
+=  Special Comments  =
+======================
